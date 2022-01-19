@@ -1,0 +1,98 @@
+:root {
+  --text-principal: #000;
+  --text-secundary: grey;
+  --bg-principal: #f2f2f2;
+  --max-width: 1152px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: var(--text-principal);
+  background-color: var(--bg-principal);
+}
+
+a {
+  color: var(--text-principal);
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  height: 70px;
+}
+
+.header nav {
+  width: 100%;
+  max-width: var(--max-width);
+  height: inherit;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header nav ul {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.header nav ul li {
+  list-style: none;
+  margin: 0 12px;
+}
+.header nav ul li a {
+  font-weight: bold;
+  padding: 16px;
+  border-bottom: 2px solid transparent;
+}
+.header nav ul li a:hover {
+  border-bottom-color: #161a1d;
+}
+
+.main {
+  width: 100%;
+  height: auto;
+  padding-bottom: 40px;
+}
+.section {
+  margin-top: 48px;
+}
+.section-1,
+.section-2,
+.section-3 {
+  width: 100%;
+  max-width: var(--max-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.footer {
+  width: 100%;
+  min-height: 60px;
+}
+
+.footer__content {
+  width: 100%;
+  min-height: inherit;
+  max-width: var(--max-width);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
