@@ -10,6 +10,19 @@
     />
     <meta name="robots" content="index, follow" />
     <title>Portfolio of Mauricio Carrasco</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,300;1,400;1,700&family=Palanquin:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
@@ -24,54 +37,202 @@
     </header>
     <main class="main">
       <section class="section section-1" id="about">
-        <h2 class="section__title">About me</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
-          asperiores. Unde recusandae fugit eaque dolor delectus, vitae adipisci
-          veritatis quaerat quisquam esse ab ad totam dolorum ut velit illum
-          odio!
-        </p>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-          explicabo beatae eveniet vel libero officiis obcaecati. Soluta, dicta.
-          Assumenda, mollitia molestiae ea recusandae dolore ratione deserunt
-          cupiditate quo eveniet natus.
-        </p>
+        <div class="section-1-content">
+          <div class="section-1__card">
+            <h2 class="section__title">About me</h2>
+            <p class="section__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
+              asperiores. Unde recusandae fugit eaque dolor delectus, vitae
+              adipisci veritatis quaerat quisquam esse ab ad totam dolorum ut
+              velit illum odio!
+            </p>
+            <p class="section__description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              explicabo beatae eveniet vel libero officiis obcaecati.
+            </p>
+          </div>
+          <div class="section-1__card">
+            <h2 class="section__title">Personal Info</h2>
+            <div class="">
+              <ul class="list">
+                <li><span class="marker"></span> Born in Cuzco, Peru</li>
+                <li><span class="marker"></span> Raised in Lima, Peru</li>
+                <li><span class="marker"></span> Proud Peruvian</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </section>
       <section class="section section-2" id="projects">
         <h2 class="section__title">Projects</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
-          asperiores. Unde recusandae fugit eaque dolor delectus, vitae adipisci
-          veritatis quaerat quisquam esse ab ad totam dolorum ut velit illum
-          odio!
+        <p class="section__description">
+          This is some projects I've made in my Journey
         </p>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-          explicabo beatae eveniet vel libero officiis obcaecati. Soluta, dicta.
-          Assumenda, mollitia molestiae ea recusandae dolore ratione deserunt
-          cupiditate quo eveniet natus.
-        </p>
+        <ul class="projects-container">
+          <li class="project">
+            <p class="project__description">
+              <strong>Pokedex</strong>
+              <span>Made with HTML, CSS and JavaScript</span>
+            </p>
+            <a href="http://mauricodev.github.io/pokedex" target="_blank">
+              <figure>
+                <i class="fas fa-eye"></i>
+                <img
+                  src="./assets/images/pokedex.jpg"
+                  class="project__image"
+                  alt="Pokedex project"
+                />
+              </figure>
+            </a>
+            <div class="project-links-container">
+              <a href="https://github.com/mauricodev/pokedex" target="_blank">
+                Repository
+              </a>
+              <a href="http://mauricodev.github.io/pokedex" target="_blank">
+                Live site
+              </a>
+            </div>
+          </li>
+          <li class="project">
+            <p class="project__description">
+              <strong>Mathematics Web Page</strong>
+              <span>Made with HTML, CSS and JavaScript</span>
+            </p>
+            <a href="http://mauricodev.github.io/pokedex" target="_blank">
+              <figure>
+                <i class="fas fa-eye"></i>
+                <img
+                  src="./assets/images/matematicas.jpg"
+                  class="project__image"
+                  alt="Mathematics project"
+                />
+              </figure>
+            </a>
+            <div class="project-links-container">
+              <a
+                href="https://github.com/mauricodev/matematicas"
+                target="_blank"
+              >
+                Repository
+              </a>
+              <a href="http://mauricodev.github.io/matematicas" target="_blank">
+                Live site
+              </a>
+            </div>
+          </li>
+          <li class="project">
+            <p class="project__description">
+              <strong>Yard Sale</strong>
+              <span>Made with HTML, CSS and JavaScript</span>
+            </p>
+            <a href="http://mauricodev.github.io/pokedex" target="_blank">
+              <figure>
+                <i class="fas fa-eye"></i>
+                <img
+                  src="./assets/images/yard_sale.png"
+                  class="project__image"
+                  alt="Yard sale project"
+                />
+              </figure>
+            </a>
+            <div class="project-links-container">
+              <a href="https://github.com/mauricodev/yard-sale" target="_blank">
+                Repository
+              </a>
+              <a href="http://mauricodev.github.io/yard-sale" target="_blank">
+                Live site
+              </a>
+            </div>
+          </li>
+          <li class="project">
+            <p class="project__description">
+              <strong>Tracktion</strong>
+              <span>Made with HTML, CSS and JavaScript</span>
+            </p>
+            <a href="http://mauricodev.github.io/pokedex" target="_blank">
+              <figure>
+                <i class="fas fa-eye"></i>
+                <img
+                  src="./assets/images/tracktion.jpg"
+                  class="project__image"
+                  alt="Tracktion project"
+                />
+              </figure>
+            </a>
+            <div class="project-links-container">
+              <a href="https://github.com/mauricodev/tracktion" target="_blank">
+                Repository
+              </a>
+              <a href="http://mauricodev.github.io/tracktion" target="_blank">
+                Live site
+              </a>
+            </div>
+          </li>
+        </ul>
       </section>
       <section class="section section-3" id="skills">
         <h2 class="section__title">Skills</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
-          asperiores. Unde recusandae fugit eaque dolor delectus, vitae adipisci
-          veritatis quaerat quisquam esse ab ad totam dolorum ut velit illum
-          odio!
-        </p>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-          explicabo beatae eveniet vel libero officiis obcaecati. Soluta, dicta.
-          Assumenda, mollitia molestiae ea recusandae dolore ratione deserunt
-          cupiditate quo eveniet natus.
-        </p>
+        <div class="section-3-content">
+          <div class="skills-container">
+            <div class="skill">
+              <span>
+                <i class="fab fa-html5 skill__image"></i>
+              </span>
+              <p class="skill__name">HTML5</p>
+            </div>
+            <div class="skill">
+              <span>
+                <i class="fab fa-css3-alt skill__image"></i>
+              </span>
+              </figure>
+              <p class="skill__name">CSS3</p>
+            </div>
+            <div class="skill">
+              <span>
+                <i class="fab fa-js-square skill__image"></i>
+              </span>
+              <p class="skill__name">JavaScript</p>
+            </div>  
+          </div>
+          <div class="skills-container">
+            <div class="skill">
+              <span>
+                <i class="fab fa-react skill__image"></i>
+              </span>
+              <p class="skill__name">React</p>
+            </div>
+            <div class="skill">
+              <span>
+                <i class="fab fa-sass skill__image"></i>
+              </span>
+              <p class="skill__name">SASS</p>
+            </div>
+            <div class="skill">
+              <span>
+                <i class="fab fa-figma skill__image"></i>
+              </span>
+              <p class="skill__name">Figma</p>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
     <footer class="footer">
       <div class="footer__content">
-        Copyright © Todos los derechos reservados
+        <div class="footer__left">
+          <a href="https://twitter.com/mauricodev" target="_blank" class="social-link">
+            <i class="fab fa-twitter social-icon"></i>
+          </a>
+          <a href="https://www.instagram.com/mauricio.carrasco10/" target="_blank" class="social-link">
+            <i class="fab fa-instagram social-icon"></i>
+          </a>
+          <a href="https://github.com/mauricodev" target="_blank" class="social-link">
+            <i class="fab fa-github social-icon"></i>
+          </a>
+        </div>
+        <div class="footer__right">
+          Copyright © Todos los derechos reservados
+        </div>
       </div>
     </footer>
   </body>
